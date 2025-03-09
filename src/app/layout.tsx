@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 import { Mukta } from "next/font/google";
 
 const mukta = Mukta({
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={mukta.className}>
       <body className="flex h-screen bg-gray-100">
+        <Sidebar />
         <main className="flex-1 p-4 overflow-auto">{children}</main>
       </body>
     </html>
