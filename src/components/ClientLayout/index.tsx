@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
-import Providers from "@/utilities/providers";
+import Providers from "@/lib/providers";
 
 interface ClientLayoutProps {
   children: React.ReactNode;
