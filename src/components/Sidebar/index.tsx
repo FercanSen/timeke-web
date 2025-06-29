@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { sidebarMenuItems } from "./sidebarMenu";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils/cn";
 
 interface SidebarProps {
   isOpen: boolean;
